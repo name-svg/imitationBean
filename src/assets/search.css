@@ -1,0 +1,90 @@
+.head{
+  height:0.56rem;
+  border-bottom:1px solid #f6f6f6;
+}
+.head span{
+  width:17%;
+  border-radius:0.02rem;
+  text-align:center;
+  display:inline-block;
+  height:100%;
+  line-height:0.56rem;
+  font-size:0.16rem;
+  color:#42bd56;
+}
+.head input{
+  width:74.1%;
+  height:0.36rem;
+
+  background:#f3f3f3 url('../../static/images/sear_03.jpg') no-repeat 50% 50%;
+}
+.head .fo{
+  background:#f3f3f3;
+  border:1px solid #e59e13
+}
+.much{
+  width:100%;
+}
+.much ul{
+  overflow:hidden;
+}
+.much li{
+  float:left;
+  width:33.33333%;
+  text-align:center;
+  height:0.81rem;
+}
+.much li h5{
+  font-size:0.24rem;
+  margin-bottom:0.04rem;
+  margin-top:0.34rem;
+}
+.much li span{
+  color:#999999;
+}
+.lo{
+  border-top:1px solid #f7f7f7;
+  border-bottom:1px solid #f7f7f7;
+  margin-top:0.36rem;
+}
+.lol,.lolx{
+ height:0.32rem;
+  padding-top:0.16rem;
+  width:100%;
+}
+.lol a,.lolx a{
+  color:#42bd56;
+  font-size:0.15rem;
+  display:inline-block;
+  width:49%;
+  text-align:center;
+}
+.lolx{
+  border-top:1px solid #f7f7f7
+}
+.lol a:first-of-type,.lolx a:first-of-type{
+  border-right:1px solid #efefef;
+}
+.lol a:last-of-type,.lolx a:last-of-type{
+  border-right:1px solid #f6f6f6;
+}
+/*搜索结果*/
+.mint-search-list-warp{
+  margin-top:1rem;
+}
+.mint-cell-text{
+  display:block;
+}
+.ab h5{
+  font-size:0.16rem;
+}
+.ab div{
+  margin-left:0.21rem;
+}
+.special{
+  font-size:0.16rem;
+  color:#42bd56;
+  height:0.57rem;
+  line-height:0.57rem;
+  text-align:center;
+}

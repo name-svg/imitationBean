@@ -1,0 +1,204 @@
+/*导航*/
+.navlist{
+  float:left;
+  padding-left:0.63rem;
+  height:0.58rem;
+}
+.navlist>li{
+  float:left;
+  height:100%;
+  line-height:0.58rem;
+  font-size:0.15rem;
+  margin-right:0.15rem;
+}
+.navs a{
+  float:left;
+  margin-left:0.22rem;
+  display:block;
+  width:0.55rem;
+  height:0.58rem;
+  background:url(../../static/images/1_03.jpg) no-repeat 0 50%;
+}
+.navs span{
+  float:right;
+  width:0.28rem;
+  height:0.58rem;
+  margin-right:0.23rem;
+  background:url(../../static/images/2_06.jpg) no-repeat 0 53%;
+}
+.navs{
+  overflow:hidden;
+  border:1px solid #f3f3f3;
+}
+/*电影*/
+.hot{
+  padding-left:0.19rem;
+  /*height:0.54rem;*/
+  line-height:0.54rem;
+  font-size:0.17rem;
+}
+.hot span{
+  float:right;
+  margin-right:0.14rem;
+  color:#42bd56;
+}
+.hot img{
+  width:1.28rem;
+  height:1.80rem;
+}
+.hot h6{
+  width:100%;
+  text-align:center;
+  font-size:0.15rem;
+  line-height:0.15rem;
+  margin-top:0.17rem;
+  margin-bottom:0.08rem;
+}
+.hot p{
+  overflow:hidden;
+  margin-left:0.02rem;
+  width:100%;
+  text-align:center;
+  font-size: 0.12rem;
+  line-height:0.12rem;
+  color:#aaaaaa;
+}
+.hot dl{
+  display:flex;
+  overflow:scroll;
+}
+.hot dd{
+  width:1.28rem;
+  height:2.42rem;
+  margin-right:0.04rem;
+}
+.hotp span{
+  float:left;
+  padding:0;
+  margin:0;
+   display:block;
+  width:0.16rem;
+  height:0.16rem;
+  background:url(../../static/images/b_03.jpg) no-repeat;
+}
+.hotp b{
+  float:left;
+  display:block;
+  width:0.16rem;
+  height:0.16rem;
+  background:url(../../static/images/c_05.jpg)
+}
+.hotp i{
+  float:left;
+  height:100%;
+  line-height:0.16rem;
+  font-size:0.15rem;
+  margin-left:0.04rem;
+}
+.sp{
+  float:left;
+  display:block;
+  width:0.16rem;
+  height:0.16rem;
+  background:url(../../static/images/f_10.jpg)
+}
+/*发现好电影*/
+.big h5{
+  padding-left:0.19rem;
+  line-height:0.56rem;
+  height:0.56rem;
+  font-size:0.16rem;
+}
+.top{
+  white-space: nowrap;
+  overflow:auto;
+  height:1.64rem;
+ }
+.top dd{
+  display:inline-block;
+  padding:0 0.28rem;
+  text-align:center;
+  margin-left:0.19rem;
+  margin-bottom:0.1rem;
+  height:0.6rem;
+  line-height:0.6rem;
+  border:1px solid #ffac2d;
+  border-radius:0.05rem;
+  white-space: nowrap;
+  font-size:0.2rem;
+}
+/*分类浏览*/
+.browse{
+  overflow: hidden;
+  padding-left:0.19rem;
+}
+.browse h6{
+  height:0.66rem;
+  line-height:0.66rem;
+  font-size:0.16rem;
+}
+.browse li{
+  margin-left:-0.02rem;
+  float:left;
+  width:50%;
+  border-top:1px solid #eeeeee;
+  border-right:1px solid #eeeeee;
+  height:0.49rem;
+  line-height:0.49rem;
+}
+.browse span{
+  display:block;
+  float:left;
+  height:100%;
+  font-size:0.15rem;
+  color:#42bd56;
+}
+.browse li b{
+  float:right;
+  margin-top:0.165rem;
+  margin-right:0.19rem;
+  display:block;
+  width:0.08rem;
+  height:0.16rem;
+  background:url(../../static/images/q_14.jpg) no-repeat;
+}
+.browse li span:nth-of-type(2n){
+  margin-left:0.22rem;
+}
+/*底部*/
+.foot{
+  padding-top:0.6rem;
+  height:1.56rem;
+}
+.foot1{
+  margin:0 auto;
+  width:2.35rem;
+  text-align:center;
+}
+.foot3{
+  width:1.69rem;
+  height:0.58rem;
+  margin-left:0.33rem;
+  margin-bottom:0.23rem;
+}
+.foot3 h5{
+  font-size:0.24rem;
+  text-align:left;
+  margin-top:0.08rem;
+  margin-bottom:0.06rem;
+}
+.foot3 span{
+  font-size:0.14rem;
+  text-align:left;
+}
+.foot3 div{
+  float:left;
+  margin-left:0.14rem;
+}
+.foot1 img{
+  float:left;
+}
+.foot1 p{
+  font-size:0.15rem;
+  color:#42bd56;
+}
